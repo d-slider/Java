@@ -2,7 +2,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Program {
+public class Program3 {
 
     static int countPaths(int x, int y, int N) {
         if (x == N - 1 && y == N - 1) {

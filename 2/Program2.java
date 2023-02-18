@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Program {
+public class Program2 {
     /**
      * +Реализовать функцию возведения числа а в степень b. a, b ∈ Z. Сводя
      * количество выполняемых действий к минимуму.

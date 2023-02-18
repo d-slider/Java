@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class program {
+public class Program1 {
     /**
      * вычисление треугольного n числа
      */
