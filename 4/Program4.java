@@ -1,10 +1,8 @@
 import java.util.ArrayDeque;
 import java.util.Queue;
-
 /**
  * Алгоритм волновоой трассировки (волновой алгоритм, алгоритм Ли) — алгоритм
- * поиска пути,
- * алгоритм поиска кратчайшего пути на планарном графе.
+ * поиска пути, алгоритм поиска кратчайшего пути на планарном графе.
  * Принадлежит к алгоритмам, основанным на методах поиска в ширину.
  */
 class Node {
@@ -36,7 +34,7 @@ class Main {
                 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
         };
 
-        var cat = new Point2D(1, 2);
+        var cat = new Point2D(1, 1);
         var exit = new Point2D(6, 6);
         mat[cat.x][cat.y] = -1;
         System.out.println(new MapPrinter().mapColor(mat));
@@ -129,10 +127,10 @@ class MapPrinter {
                         sb.append("K");
                         break;
                     case -2:
-                        sb.append("E ");
+                        sb.append("E");
                         break;
                     default:
-                        sb.append("  ");
+                        sb.append(" ");
                         break;
                 }
             }
