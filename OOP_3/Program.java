@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -40,6 +39,8 @@ public class Program {
         int teamCount = 10;
         Random rand = new Random();
 
+        System.out.println();
+        
         List<BaseHero> teams = new ArrayList<>();
         for (int i = 0; i < teamCount; i++) {
             int val = rand.nextInt(6);
@@ -66,11 +67,10 @@ public class Program {
                     teams.add(new Spearman());
                     break;     
                 default:
-                    // teams.add(new BaseHero());
+                   
                     break;
             }
             System.out.println(teams.get(i).getInfo());
-        }
-        System.out.println();
+        }        
     }
 }
